@@ -45,6 +45,8 @@ def main():
             if result:
                 print(f"Found: {result}")
                 found_subdomains.append(result)
+            else:
+                print("NA")
 
     # Output results
     if output_file:
